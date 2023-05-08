@@ -23,7 +23,7 @@ ec2 hosts.
   * You can see my script to get the evaluations for different positions in get_evals_2.py.
   * You can see the script I used to orchestrate the ec2 hosts in start_processing.sh.
   * After each host produces its own results in an evaluations.db database, you should merge the
-resulting databases with sqlite itself after `scp`-ing them back to your local host?
+resulting databases using the retrieve_results.sh script.
 
 ### What if I just want the results?
 You can see the results as a tsv file called evals.txt at https://drive.google.com/drive/folders/1IE24S-01M0nFRbemicvlYHdamXSAi340?usp=sharing
